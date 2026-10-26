@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.env*
+!.env.example
+coverage/
+playwright-report/
+test-results/
+demo-recordings/
+docs/development-notes.md
