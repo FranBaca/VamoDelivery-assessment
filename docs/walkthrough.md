@@ -44,4 +44,8 @@ Resolve the incident. Show the retained outcome and history. Mention that cancel
 
 **3:40–4:20 — Engineering and next steps**
 
-Briefly explain pure business rules, explicit types, isolated mock persistence, and tests for linking, impact, confirmation, and resolution. Mention browser-local state as a deliberate prototype tradeoff. With another week, validate the workflow with operators before building shared state and real integrations. Do not claim measured results.
+Briefly explain pure business rules, explicit types, and tests for linking, impact, confirmation, and resolution. Then close with the proposed business direction:
+
+> This prototype shows how Support and Operations can coordinate around one incident. The next step I would propose is connecting this dashboard to the delivery app, so the team can send live updates directly to affected customers. For example, once a replacement driver is confirmed, Support could notify those customers from the incident workspace and keep a record of what was sent. This follows the assessment’s emphasis on a more preventive, less reactive approach: use what we already know to notify affected customers before they need to call. The goal is to anticipate their communication needs, rather than wait for each customer to report the same problem. This integration is a proposal; communication in the prototype is simulated.
+
+Do not claim the integration exists or that its business impact has been measured.

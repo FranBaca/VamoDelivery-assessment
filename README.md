@@ -141,6 +141,18 @@ Fictional inputs and local storage keep setup small and the scenario repeatable.
 - Potential impact comes from known assignments, not prediction. Delivery windows passing prompts verification; the app does not verify delays, arrival, cargo temperature, or cold-chain compliance.
 - There are no analytics, automatic escalations, routing optimization, or measured operational improvements. No operator research, production load testing, or manual screen-reader audit has been completed.
 
+## What I Would Build Next
+
+The next business step I would propose is connecting the incident dashboard to the delivery app. Support and Operations could use the same workspace to coordinate the response and send live updates to the affected customers, helping customers get timely information without needing to call for status.
+
+This follows the assessment’s emphasis on a more preventive, less reactive approach. Once a problem is known, the team could identify other affected customers and notify them before they need to contact Support. The preventive focus is on anticipating communication needs and avoiding additional status inquiries; it does not imply predicting or preventing the original breakdown.
+
+For example, once Operations confirms a replacement driver, Support could select the affected deliveries and send an update through the app. The incident would retain the message and its sending status so the next teammate could see what customers were told. A recovery proposal would remain distinct from confirmed information, and sending an update would not imply a successful delivery.
+
+I would start by validating the app’s existing messaging capabilities and the information customers need during a disruption, then pilot this flow with a small group. The integration would need reliable customer and delivery matching, permission to send updates, and visible handling of failed sends. I would evaluate time to the first customer update, repeat status inquiries, and whether messages reach their intended recipients before expanding it.
+
+This is a proposed product direction. The current prototype records simulated updates only; it does not connect to the delivery app or send real messages.
+
 ## AI-Assisted Development
 
 I used AI assistance to propose structure and scope, generate implementation and mock data, write tests and documentation, and review the code. I approved and refined the product direction, including resolution rules, onboarding, test priorities, and accessibility, and reviewed the browser walkthrough.
